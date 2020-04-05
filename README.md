@@ -1,5 +1,9 @@
 # __Teste Prático Zup__
 
+CI | Status
+---| ------
+CircleCI | [![CircleCI](https://circleci.com/gh/rbercam/testePraticoZup.svg?style=svg)](https://circleci.com/gh/rbercam/testePraticoZup)
+
 ## __Pré-requisitos__
 1. Instalar o [Node](https://nodejs.org/pt-br/)
 1. Ter o Chrome instalado
