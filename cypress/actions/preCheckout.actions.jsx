@@ -1,3 +1,3 @@
 export function viewCart(){
-    cy.get('#hlb-view-cart-announce').click()
+    cy.get('#nav-cart-count').click();
 }
