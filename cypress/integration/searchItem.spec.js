@@ -10,11 +10,11 @@ describe('Search Item', () => {
         visit();
     })
     it('search item in website', ()=>{
-        searchItem('iphone xr 128gb');
+        searchItem('iphone xr');
     })
 
     it('select item in website', ()=>{
-        selectItem('Iphone');
+        selectItem('Iphone Xr');
     })
 
     it('add item in cart', ()=>{
