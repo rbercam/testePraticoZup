@@ -1,8 +1,7 @@
 /// <reference types="cypress" />
 import { visit, searchItem } from '../actions/homeSearch.actions'
 import { selectItem, addToCart } from '../actions/searchResult.actions'
-import { viewCart } from '../actions/preCheckout.actions';
-import { verifyTitle, verifyItemInCart } from '../actions/cart.actions';
+import { verifyMessage } from '../actions/preCheckout.actions';
 
 describe('Search Item', () => {
 
@@ -22,8 +21,6 @@ describe('Search Item', () => {
     })
 
     it('view item in cart', ()=>{
-        viewCart();
-        verifyTitle('Carrinho de compras');
-        verifyItemInCart('Iphone Xr');
+       verifyMessage('Adicionado ao carrinho')
     })
 })

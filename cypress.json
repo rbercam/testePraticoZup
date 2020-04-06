@@ -1,5 +1,6 @@
 {
         "baseUrl": "https://amazon.com.br",
+        "chromeWebSecurity":false,
         "viewportWidth": 1400,
         "viewportHeight": 660
 }

@@ -1,5 +1,4 @@
-export function viewCart(){
-    cy.get('#nav-cart-count').click();
-    cy.wait(1000);
-    cy.get('#nav-cart-count').click();
+export function verifyMessage(message){
+    cy.get('#huc-v2-order-row-confirm-text').should('have.contain.text', message)
+    cy.screenshot('itemIntoTheCart.png')
 }
